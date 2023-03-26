@@ -94,7 +94,7 @@ export default function ViewUser() {
             <p><MdEmail size={22}/><b> Email : </b>{user.email}</p>
           </div>
           <Link className="new-btn" style={{marginRight:"20px",width:"22%",marginTop:"20px"
-  }} to="/adduser"><p style={{marginBottom:"-2px"}}>Go Back</p><TiArrowBack size={20} color="white"/></Link>
+  }} to="/"><p style={{marginBottom:"-2px"}}>Go Back</p><TiArrowBack size={20} color="white"/></Link>
         </div>
       </div>
     </div>
