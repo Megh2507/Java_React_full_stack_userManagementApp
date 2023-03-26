@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Passions+Conflict&display=swap');
+#root {
+  /* max-width: 1280px; */
+  margin: 0 ;
+  padding: 0;
+  font-family: 'Delicious Handrawn', cursive;
+  /* text-align: center; */
+  box-sizing: border-box;
+  /* background-color: aqua;  */
+  
+  height: 100vh;
+  width: 100vw;
+
+}
+body{
+  background-image: url('https://www.softwarepursuits.com/content/uploads/suresync-suite-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar {
+  background-color: transparent;
+  box-shadow: 0px 2px 10px rgba(255, 243, 243, 0.907);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.new-btn{
+  padding: 12px 15px;
+  /* border: 1px solid white; */
+  color: white;
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  box-shadow: 0px 2px 10px rgba(255, 243, 243, 0.907);
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+gap: 10px;
+  font-size: 18px;
+
+}
+.new-btn:hover{
+  background-color: white;
+  color: #005bea;
+}
+/* #edit-form input{
+  background: transparent;
+  border-radius: 30px;
+} */
+input{
+  background: transparent;
+  border-radius: 30px ;
+}
